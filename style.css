@@ -1,3 +1,72 @@
+/* Media Querry */
+
+/* Mobile */
+@media (min-width:220px) and (max-width: 768px) {
+    body{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .HeroSection{
+     padding: 50px !important;
+    
+}
+    .Buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        
+    }
+    .btn-signUp{
+    padding: 10px 25px 10px 25px;
+    }
+    .btn-login{
+    padding: 10px 25px 10px 25px;
+    }
+   .hero-image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: auto;
+   }
+  
+   .play-butto{
+    margin-left: 0px !important;
+   }
+   
+   
+   .play-icon{
+    width: 32px;
+   }
+   .btn-hero{
+    padding: 10px 15px 10px 15px !important;
+   }
+   .star-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center;
+   }
+   .star-svg{
+    width: 150px;
+   }
+  .rating-des{
+    margin-top: 15px;
+    max-width: 250% !important;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+
+    .navbar-nav  {
+        gap: 10px;
+    }
+}
+
+/* body */
+
 body {
     margin-left: 150px;
     margin-right: 150px;
@@ -6,7 +75,7 @@ body {
 
 /* NavBar */
 #Navbar{
-    margin-top: 53px ;
+    padding: 53px ;
 }
 
 
@@ -55,8 +124,8 @@ body {
 
 /* Hero-Section */
 
-.heading{
-    margin-top: 148px;
+.HeroSection{
+    padding: 150px;
     
 }
 
@@ -96,6 +165,11 @@ h1{
     background-color: transparent;
 
 }
+
+.desc-button{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
 .play-icon{
    margin-right: 20px;
 }
@@ -113,28 +187,60 @@ h1{
     margin-bottom: 0px;
 }
 
-/* Media Querry */
+/* Logo Icons */
 
-/* Mobile */
-@media (min-width:220px) and (max-width: 768px) {
-    .Buttons{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-        
-    }
-    .btn-signUp{
-    padding: 10px 25px 10px 25px;
-    }
-    .btn-login{
-    padding: 10px 25px 10px 25px;
-    }
+.IconSection{
+    padding: 15px;
 }
 
-@media (min-width:769px) and (max-width: 1024px) {
+.logo-slider {
+  background-color: #f9f9f9;
+}
 
-    .navbar-nav  {
-        gap: 10px;
-    }
+.logo-track {
+  animation: scroll 7s linear infinite;
+  display: flex;
+  width: max-content;
+}
+
+.logo-item {
+  flex: 0 0 auto;
+  max-width: 150px;
+}
+
+.logo-item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Optional: slower scroll on hover */
+.logo-track:hover {
+  animation-play-state: paused;
+}
+
+
+/* Services Section */
+
+.Services{
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Services-heading{
+    font-size: 40px;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+   
 }
