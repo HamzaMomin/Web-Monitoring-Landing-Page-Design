@@ -244,3 +244,17 @@ h1{
     text-align: center;
    
 }
+.Card-Container{
+    margin-top: 62px !important;
+}
+.Card{
+    border: 1.5px solid #EEEEEE;
+    padding: 41px 44px 61px 44px !important;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+h4{
+    color: #125B50 !important;
+    
+}
