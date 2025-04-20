@@ -7,7 +7,7 @@
         margin-right: 12px;
     }
     .HeroSection{
-     padding: 50px !important;
+     padding: 20px !important;
     
 }
     .Buttons{
@@ -28,6 +28,7 @@
     margin-bottom: 10px;
     width: 350px;
     height: auto;
+    
    }
   
    .play-butto{
@@ -56,12 +57,31 @@
     width: 100%;
     text-align: center;
   }
+  .Services{
+    padding: 20px !important;
+  }
+
+.Features-heading{
+    font-size: 30px !important;
+    padding: 20px !important;
+    
+}
+.Advance-Feature{
+    padding:31px 34px 51px 34px !important; 
+}
+
+  
+
 }
 
 @media (min-width:769px) and (max-width: 1024px) {
 
     .navbar-nav  {
         gap: 10px;
+    }
+    .Services{
+        padding: 60px !important;
+        margin-bottom: 50px !important;
     }
 }
 
@@ -245,7 +265,8 @@ h1{
    
 }
 .Card-Container{
-    margin-top: 62px !important;
+   
+    padding: 62px 86px;
 }
 .Card{
     border: 1.5px solid #EEEEEE;
@@ -258,3 +279,25 @@ h4{
     color: #125B50 !important;
     
 }
+
+/* Advance Feature  */
+
+.AdvanceFeatures{
+    background-color: #125B50;
+}
+.Features-heading{
+ color: #FFF;
+ font-size: 40px;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    padding-top: 62px;
+}
+
+.Advance-Feature{
+    background-color: #FAF5E4;
+    padding: 41px 44px 61px 44px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
